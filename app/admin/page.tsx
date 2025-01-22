@@ -6,8 +6,9 @@ import Admin from "@/components/Admin";
 
 export const dynamic = "force-dynamic";
 
-const supabase = createServerComponentClient({ cookies });
 export default async function Index() {
+  const supabase = createServerComponentClient({ cookies });
+
   const {
     data: { user },
   } = await supabase.auth.getUser();
