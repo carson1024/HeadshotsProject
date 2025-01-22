@@ -1,0 +1,139 @@
+.mynav {
+    background-color: white;
+}
+
+.topbar {
+    font-size: 16px;
+    text-align: right;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: rgb(60, 60, 87);
+    width: 100%;
+    border-bottom: 2px solid #1c1844;
+    background-color: white;
+}
+
+.total {
+    z-index: 1;
+}
+
+.bucard {}
+
+.bucard:hover {
+    transform: 1s;
+    transition: 0.2s;
+    box-shadow: 6px 6px 5px black;
+}
+
+/* This is table part */
+.bbtable {
+    max-width: 900px !important;
+    margin: auto;
+    width: 100% !important;
+    background-color: transparent;
+}
+
+.footer {
+    background-color: #1c1b1b;
+    /* color:white!important; */
+    margin-top: 0px !important;
+    /* background-color: black; */
+}
+
+.smallimages {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+:where(.css-dev-only-do-not-override-7ny38l).ant-rate .ant-rate-star:not(:last-child) {
+    margin: 0px !important;
+}
+
+.banner-scroll {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    padding: 1.25rem 0;
+    overflow: hidden;
+}
+
+.banner-scroll::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 110px;
+    height: 100%;
+    background: url(https://images.media.io/images2023/headshot/banner-ceng.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    content: '';
+    z-index: 2;
+}
+
+.banner-row {
+    width: calc(159px * 15 + 15 * 24px);
+}
+
+.banner-pic {
+    margin: 0 12px;
+    width: 159px;
+}
+
+.to-right {
+    animation: right-effect 30s linear infinite
+}
+
+.to-left {
+    animation: left-effect 30s linear infinite
+}
+
+@keyframes right-effect {
+    0% {
+        transform: translateX(-50%)
+    }
+
+    100% {
+        transform: translateX(0)
+    }
+}
+
+@keyframes left-effect {
+    0% {
+        transform: translateX(0)
+    }
+
+    100% {
+        transform: translateX(-50%)
+    }
+}
+
+.d-flex {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+
+.training .bg-card {
+    background-color: transparent;
+}
+
+.animate-scroll {
+    animation: scroll 30s linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+.hover\:bg-\[\#20aca0\]:hover {
+    box-shadow: 0px 4px 7px grey;
+}
+.PriceColumn-button {
+    background-color: #20aca0!important;
+    border-color: #20aca0!important;
+}
